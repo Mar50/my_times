@@ -1,0 +1,161 @@
+header{
+  display: flex;
+  height 80px;
+  border-bottom: 1px solid black;
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+  justify-content: space-between;
+  align-items: center;
+}
+
+footer{
+  display: flex;
+  height: 200px;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+  background-color: MediumAquamarine;
+  font-family: Verdana;
+  font-size: 12px;
+}
+
+footer h3{
+  display: inline-block;
+  font-family: Georgia;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+}
+
+footer a{
+  color: black;
+}
+
+footer span{
+  display: inline-block;
+  padding: 20px 10px;
+}
+
+.header_flexbox nav li{
+  padding: 20px 10px;
+  display: inline-block;
+  text-align: center;
+}
+
+li{
+  list-style-type: none;
+}
+
+.header_flexbox #logo_name{
+  color: MediumAquamarine;
+}
+
+.main_content{
+  display: flex;
+  width: 100%;
+  padding-top: 116px;
+  /*margin-right: 59px;*/
+  /*margin-left: 59px;*/
+  margin-bottom: 78px;
+  justify-content: space-between;
+}
+
+h2{
+  font-family: Georgia;
+  color: black;
+  font-size: 40px;
+}
+.right_column h2{
+  text-align: center;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.right_column span{
+  padding: 11px 20px;
+  background-color: WhiteSmoke;
+  font-family: Verdana;
+  font-size: 12px;
+  color: DimGray;
+  border-bottom: 1px solid black;
+}
+
+.left_column{
+  display: flex;
+  flex-direction: column;
+  padding-left: 20px;
+  margin-right: 50px;
+  max-width: 630px;
+}
+
+.left_column #main_photo{
+  display: flex;
+  height: 300px;
+  text-align: center;
+  align-items: center;
+  background-image: url("../images/img-story-main.png");
+}
+
+.small_articles{
+  display: flex;
+  align-content: center;
+}
+
+.small_photos{
+  display: flex;
+  align-content: center;
+  justify-content: space-between;
+}
+
+.left_column #earth_spin_photo{
+  display: flex;
+  height: 300px;
+  max-width: 300px;
+  text-align: center;
+  align-items: center;
+  background-image: url("../images/img-story-2.png");
+}
+
+.left_column #hipster_photo{
+  display: flex;
+  height: 300px;
+  max-width: 300px;
+  text-align: center;
+  align-items: center;
+  background-image: url("../images/img-story-3.png");
+}
+
+.middle_column #cat_control{
+  display: flex;
+  height: 300px;
+  max-width: 300px;
+  text-align: center;
+  background-image: url("../images/img-story-1.png");
+}
+
+.middle_column{
+ display: flex;
+ flex-direction: column;
+ max-width: 300px;
+}
+
+.right_column{
+  display: flex;
+  flex-direction: column;
+  margin-left: 50px;
+  width: 240px;
+}
+
+.photo_text{
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+}
+
+.story_text{
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
+}
